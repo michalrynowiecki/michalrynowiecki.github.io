@@ -20,5 +20,38 @@ body {
         <a href="https://drive.google.com/uc?export=download&id=1SIxB_gcpy-j4KJfzozT18PtUo-W1dhQL" target="_blank">Resume</a>
         <a href="https://michalrynowiecki.github.io/Contact">Contact</a>
     </div>
+
+    .wrapper {
+      display: flex;
+      justify-content: space-around;
+    }
+    .box {
+      flex: 0 0 40%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px dashed red;
+    }
+    button {
+      margin-top: auto;
+    }
+
+    <div class="wrapper">
+      <div class="box">
+        <img src="http://i.imgur.com/60PVLis.png" width="50" height="50" alt="">
+        <h2>Headline 1</h2>
+        <p>Description 1</p>
+        <button></button>
+      </div>
+      <div class="box">
+        <img src="http://i.imgur.com/60PVLis.png" width="50" height="50" alt="">
+        <h2>Headline 2</h2>
+        <p>Description 2
+          <br>with special line</p>
+        <button></button>
+      </div>
+    </div>
+
 </body>
 </html>
